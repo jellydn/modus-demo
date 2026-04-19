@@ -42,7 +42,7 @@ jobs:
         uses: actions/setup-go@v5
 
       - name: Setup TinyGo
-        uses: acifani/setup-tinygo@v2
+        uses: acifani/setup-tinygo@v3
         with:
           tinygo-version: "0.34.0"
 
