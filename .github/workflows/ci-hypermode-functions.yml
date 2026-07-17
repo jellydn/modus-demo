@@ -39,7 +39,7 @@ jobs:
           node-version: "22"
 
       - name: Setup Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v7
 
       - name: Setup TinyGo
         uses: acifani/setup-tinygo@v2
